@@ -9,6 +9,15 @@ html, body{
     overflow: inherit;
 }
 
+.borde{
+    margin-top: 117%;
+    margin-left: -55%;
+    width: auto;
+    height: 40%;
+    position: fixed;
+    pointer-events: none;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -28,24 +37,39 @@ html{
 
 .xv{
     font-size: 500%;
-    margin: -20% 0 0 15%;
 }
 
 p{
-    margin: 0 0 1% 0;
-    font-size: 140%;
+    font-size: 29px;
+}
+
+.icono{
+    width: 25%;
+}
+
+.one{
+    margin: 0 0 -10% -28%;
+}
+
+.two{
+    margin: 0 0 -10% -55%;
+}
+
+.three{
+    margin: 0 0 -10% -60%;
 }
 
 h1{
     color: #4f1176;
     font-family: "Meow Script", cursive;
-    font-size: 240%;
+    font-size: 55px;
 }
 
 h2{
-    font-size: 180%;
+    font-size: 40px;
     font-weight: bold;
     padding: 12% 0 0 0;
+    margin-top: -8%;
 }
 
 .iframe-map{
@@ -57,7 +81,7 @@ h2{
 .btn{
     border-color: #4f1176;
     color: #4f1176;
-    font-size: 120%;
+    font-size: 20px;
     margin: 30% 0 0 0;
     text-align: center;
     cursor: pointer;
