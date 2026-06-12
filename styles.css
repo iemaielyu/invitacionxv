@@ -13,34 +13,6 @@ html{
     scroll-behavior: smooth;
 }
 
-.borde-izquierdo{
-    position: fixed;
-    margin: 100% 0 0 -90%;
-    z-index: -0;
-    opacity: 30%;
-}
-
-.borde-iz{
-    position: fixed;
-    z-index: -0;
-    opacity: 70%;
-    margin: 130% 0 0 -50%;
-}
-
-.borde-derecho{
-    image-orientation: flip;
-    position: fixed;
-    margin: 100% 0 0 -20%;
-    opacity: 30%;
-}
-
-.borde-de{
-    position: fixed;
-    z-index: -0;
-    opacity: 70%;
-    margin: 120% 0 0 -70%;
-}
-
 .container{
     position: relative;
     width: 100%;
@@ -50,24 +22,28 @@ html{
     z-index: 5;
 }
 
+.col-6, .col{
+    font-size: 140%;
+}
+
 .xv{
-    font-size: 70px;
-    margin: -20% 0 0 20%;
+    font-size: 500%;
+    margin: -20% 0 0 15%;
 }
 
 p{
     margin: 0 0 1% 0;
-    font-size: 120%;
+    font-size: 140%;
 }
 
 h1{
     color: #4f1176;
     font-family: "Meow Script", cursive;
-    font-size: 170%;
+    font-size: 240%;
 }
 
 h2{
-    font-size: 130%;
+    font-size: 180%;
     font-weight: bold;
     padding: 12% 0 0 0;
 }
@@ -81,7 +57,7 @@ h2{
 .btn{
     border-color: #4f1176;
     color: #4f1176;
-    font-size: 70%;
+    font-size: 120%;
     margin: 30% 0 0 0;
     text-align: center;
     cursor: pointer;
@@ -103,11 +79,10 @@ h2{
     text-decoration: none;
     color: #4f1176;
     padding: 5%;
-    border-radius:;
     margin: 0 0 0 -8%;
 }
 
 .info-parqueo{
-    font-size: 100%;
+    font-size: 140%;
     margin-top: 8%;
 }
