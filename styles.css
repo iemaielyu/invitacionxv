@@ -139,6 +139,10 @@ h3{
     margin-top: 9%;
 }
 
+.info-itinerario{
+    font-size: 110%;
+}
+
 .footer{
     position: relative;
     z-index: 1;
@@ -147,3 +151,55 @@ h3{
     color: black;
     font-family: Arial;
 }
+
+@media (min-width: 600px)
+    {
+        .borde{
+            margin-top: 12%;
+            background-repeat: repeat;
+            background-size: 100px 100px;
+        }
+
+        .container{
+            height: 80%;
+        }
+
+        .icono{
+            width: 15%;
+            margin: 0 0 -10% -35%;
+        }
+
+        .iframe-map{
+            width: 50%;
+            height: 20%;
+            margin: 2% 0 0 26%;
+        }
+
+        .btn{
+            margin-top: 8%;
+        }
+
+        .time{
+            margin: 0;
+        }
+
+        .info-parqueo{
+            margin: 2% 0 0 0;
+        }
+
+        .itinerario{
+            width: 100%;
+            height: 102%;
+            font-size: 130%;
+        }
+
+        img{
+           width: 10%;
+           margin: 0 0 -5 0%;
+        }
+
+        .info-itinerario{
+            margin-top: 5%;
+            margin-bottom: -8%;
+        }
+    }
