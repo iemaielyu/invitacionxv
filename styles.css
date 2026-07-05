@@ -10,7 +10,7 @@ html, body{
 }
 
 .borde{
-    margin-top: 117%;
+    margin-top: 111%;
     margin-left: -55%;
     width: auto;
     height: 40%;
@@ -119,6 +119,21 @@ h2{
     margin-top: 8%;
 }
 
+.itinerario{
+    position: relative;
+    width: 100%;
+    height: 145%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    z-index: 5;
+}
+
+img{
+    width: 30%;
+    margin-top: 10%;
+    margin-bottom: -7%;
+}
+
 h3{
     margin-bottom: -5%;
     margin-top: 9%;
@@ -127,7 +142,7 @@ h3{
 .footer{
     position: relative;
     z-index: 1;
-    margin-top: -30px;
+    margin-top: 45%;
     font-size: 70%;
     color: black;
     font-family: Arial;
