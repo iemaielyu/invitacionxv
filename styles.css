@@ -10,7 +10,7 @@ html, body{
 }
 
 .borde{
-    margin-top: 117%;
+    margin-top: 107%;
     margin-left: -50%;
     width: 100%;
     height: 40%;
@@ -146,6 +146,7 @@ h3{
 
 .footer{
     position: relative;
+    margin-top: 70%;
     z-index: 1;
     font-size: 70%;
     color: black;
