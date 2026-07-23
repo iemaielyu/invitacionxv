@@ -25,10 +25,57 @@ html{
 .container{
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 87%;
     box-sizing: border-box;
     border-radius: 10px;
-    z-index: 5;
+    z-index: 4;
+}
+
+.bienvenida-img {
+    position: absolute;
+    width: 100%;
+    margin-top: 10%;
+    opacity: 0;
+    transform: translateY(20px);
+    animation-fill-mode: forwards;
+}
+
+/* Posiciones más compactas */
+.bienvenida-img:nth-child(1) {
+    top: 0; left: 0px;
+animation: fadeInMove 1s ease forwards 0.5s;
+}
+.bienvenida-img:nth-child(2) {
+    top: 0px; left: 0px;
+    animation: fadeInMove 1s ease forwards 1.5s;
+}
+.bienvenida-img:nth-child(3) {
+    top: 0px; left: 0px;
+    animation: fadeInMove 1s ease forwards 2.5s;
+}
+
+@keyframes fadeInMove {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+}
+} 
+
+.misa{
+    height: 65%;
+}
+
+.recepcion{
+    height: 75%;
+}
+
+.regalo{
+    height: 45%;
+    margin-top: 50%;
 }
 
 .col-6, .col, .direcciones{
