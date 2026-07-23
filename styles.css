@@ -28,7 +28,8 @@ html{
     height: 100%;
     box-sizing: border-box;
     border-radius: 10px;
-    z-index: 4;
+    z-index: 5;
+    margin-top: -8%;
 }
 
 .bienvenida-img {
@@ -74,7 +75,7 @@ animation: fadeInMove 1s ease forwards 0.5s;
 }
 
 .regalo{
-    height: 45%;
+    height: 50%;
     margin-top: 50%;
 }
 
